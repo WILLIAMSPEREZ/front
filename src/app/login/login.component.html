@@ -1,0 +1,35 @@
+<div class="csdocs-skin">
+    <div class="csdocs-skin-body">
+        <h1>Bienvenido al Generador</h1>
+        <h1>de esquemas de documentos </h1>
+        <hr>
+        <p>Aquí podrá usted encontrar toda la información de los documentos digitalizados de la Secretaría; Si usted no contiene un usuario y contraseña, por favor comuníquese al área de soporte técnico en horario de 09:00 am - 18:00 pm.</p>
+    </div>
+</div>
+<div>
+    <mat-card class="csdocs-card">
+        <mat-card-header>
+            <div mat-card-avatar class="csdocs-header-image"> </div>
+        </mat-card-header>
+        <img mat-card-image src="../../assets/image/logo.jpg">
+        <mat-card-content>
+            <form>
+                <mat-form-field>
+                    <input type="text" formControlName="username" matInput placeholder="Username">
+                </mat-form-field>
+                <mat-form-field>
+                    <input type="email" formControlName="email" matInput placeholder="Email">
+                </mat-form-field>
+
+                <mat-form-field>
+                    <input type="password" formControlName="password" matInput placeholder="Password">
+                </mat-form-field>
+                <mat-form-field>
+                    <input type="password" formControlName="nip" matInput placeholder="NIP">
+                </mat-form-field>
+                <!-- <button mat-raised-button color="primary" href="main-nav">Iniciar Sesión</button> -->
+                <a mat-raised-button href="main-nav">Iniciar Sesion</a>
+            </form>
+        </mat-card-content>
+    </mat-card>
+</div>
